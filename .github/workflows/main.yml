@@ -20,6 +20,5 @@ jobs:
     - name: npm install, npm test, npm build
       run: | 
         yarn install
-        yarn lint
         yarn test
         yarn build
